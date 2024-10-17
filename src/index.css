@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #FFFFFF;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  background-color: #F55A5A;
+}
+
+header img {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  padding: 1em 0;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: -0.075em;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 36px;
+  margin: 100px auto 0 auto;
+  max-width: 550px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 19px;
+}
+
+.card-image-container {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  flex: 0 0 125px;
+}
+
+.location-icon {
+  width: 7px;
+  height: 9.55px;
+}
+
+.location {
+  margin-left: 4px;
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.google-maps-url {
+  margin-left: 12px;
+  font-size: 0.65rem;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #918E9B;
+}
+
+.card-title {
+  margin-top: 4px;
+  font-size: 1.56rem;
+  font-weight: 700;
+  color: #2B283A;
+}
+
+.card-date {
+  margin-top: 17px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #2B283A;
+}
+
+.card-description {
+  margin-top: 9px;
+  font-size: 0.65rem;
+  font-weight: 400;
+  color: #2B283A;
+}
+
