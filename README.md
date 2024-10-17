@@ -6,7 +6,7 @@ A React travel journal page built for the Scrimba front-end developer path. Used
 
 ## Features
 
-- Renders location cards via React custom components & props
+- Programatically renders location cards via React custom components & props from a data.js file
 
 ## Technologies Used
 
